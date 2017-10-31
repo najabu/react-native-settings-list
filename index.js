@@ -389,7 +389,7 @@ SettingsList.Item = createReactClass({
     /* Gives opens to hide specific borders */
     borderHide: PropTypes.oneOf(['Top', 'Bottom', 'Both']),
 
-    itemRef: React.PropTypes.func,
+    itemRef: PropTypes.func,
   },
   getDefaultProps(){
     return {
