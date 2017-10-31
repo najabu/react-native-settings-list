@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import createReactClass from 'create-react-class';
 
 import {
   View,
@@ -270,12 +271,12 @@ const styles = StyleSheet.create({
 /**
  * Optional Header for groups
  */
-SettingsList.Header = React.createClass({
+SettingsList.Header = createReactClass({
   propTypes: {
     headerText: PropTypes.string,
     headerStyle: Text.propTypes.style,
-    headerRef: React.PropTypes.func,
-    headerNumberOfLines: React.PropTypes.number,
+    headerRef: PropTypes.func,
+    headerNumberOfLines: PropTypes.number,
   },
   getDefaultProps() {
     return {
@@ -293,7 +294,7 @@ SettingsList.Header = React.createClass({
 /**
  * Individual Items in the Settings List
  */
-SettingsList.Item = React.createClass({
+SettingsList.Item = createReactClass({
   propTypes: {
     /**
      * Title being displayed

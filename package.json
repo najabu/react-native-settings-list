@@ -25,10 +25,11 @@
   },
   "homepage": "https://github.com/evetstech/react-native-settings-list#readme",
   "devDependencies": {
-    "react-native": ">=0.18.0",
-    "react": ">=0.14.0"
+    "react-native": ">=0.49.0",
+    "react": ">=15.0.0"
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "create-react-class": "^15.6.2"
   }
 }
